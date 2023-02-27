@@ -26,13 +26,16 @@ The importance of synchronous and asynchronous API requests depends on the speci
 ## Setup
 
 ### Prerequisites
-This tools relies on API calls to IUCN. *The IUCN API is a RESTful API that provides access to data from the International Union for Conservation of Nature (IUCN). The API allows users to query for information about species, habitats, and other conservation-related data.* You will need setup an account with these organisations and request an API key. You can register here: https://apiv3.iucnredlist.org/.
+This tools relies on API calls to IUCN. *The IUCN API is a RESTful API that provides access to data from the International Union for Conservation of Nature (IUCN). The API allows users to query for information about species, habitats, and other conservation-related data.* 
+
+You will need setup an account with these organisations and request an API key. You can register here: https://apiv3.iucnredlist.org/.
 Once you have the API key, copy it into a config.ini file in the root of the folder. Your config.ini file should look like this:
 ```
 [API]
 iucn = you_iucn_api
 ```
 
+**How to run notebook**
 1. Download zip from GitHub
 2. Move the zipped folder to your documents folder on your device
 3. Unzip the sync-async-api-tutorial folder
@@ -41,4 +44,4 @@ iucn = you_iucn_api
 6. Activate the conda environment: `conda activate api-env`
 7. Go back to the sync-async-api-tutorial folder and open the api_comparison.ipynb file in Visual Studio Code
 8. Click 'View', 'Command Palette' and type 'Python: Select Interpreter' into the search bar, choose the api-env environment
-8. Run the api_comparison.ipynb notebook
+9. Run the api_comparison.ipynb notebook
