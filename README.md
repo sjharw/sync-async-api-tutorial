@@ -40,7 +40,7 @@ iucn = you_iucn_api
 2. Move the zipped folder to your documents folder on your device
 3. Unzip the sync-async-api-tutorial folder
 4. Open Anaconda prompt and change directory to the location of the sync-async-api-tutorial folder: `cd C:/path_to/sync-async-api-tutorial`
-5. Setup the conda environment for the project by running the following line in the Prompt: `conda env create --name envname --file=environment.yaml`
+5. Setup the conda environment for the project by running the following line in the Prompt: `conda env create --name api-env --file=environment.yaml`
 6. Activate the conda environment: `conda activate api-env`
 7. Go back to the sync-async-api-tutorial folder and open the api_comparison.ipynb file in Visual Studio Code
 8. Click 'View', 'Command Palette' and type 'Python: Select Interpreter' into the search bar, choose the api-env environment
