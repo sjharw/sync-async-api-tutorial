@@ -1,5 +1,21 @@
 # sync-async-api-tutorial
 
+## About
+This brief tutorial takes you through sync and async methods of making API requests, using the IUCN API as an example. In the tutorial, the following areas are covered:
+- Making API requests with the `requests`, `futures`, `asyncio` and `aiohttp` libraries
+- Timing API requests
+- Plotting the results of API requests
+- Testing API requests
+
+## Background
+In Python, synchronous and asynchronous API requests refer to different ways of sending and receiving data from an external API or web service.
+
+Synchronous API requests are blocking, meaning that when a request is made, the program waits for the response to come back before continuing with any other tasks. This can be useful in situations where the response is required immediately and no other tasks need to be performed until the response is received.
+
+On the other hand, asynchronous API requests are non-blocking, meaning that when a request is made, the program continues to execute other tasks while waiting for the response to come back. This can be useful in situations where multiple requests need to be made at the same time or when the response time is unpredictable, allowing the program to continue working on other tasks while waiting for the response.
+
+The importance of synchronous and asynchronous API requests depends on the specific use case. For example, synchronous requests may be preferred when working with small, simple APIs that require immediate responses, while asynchronous requests may be necessary when working with large, complex APIs that require many requests to be made at the same time.
+
 ## Tech stack
 - Anaconda3 (Conda) 22.11.1
 - Python 3.10.0
