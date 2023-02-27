@@ -35,7 +35,7 @@ Once you have the API key, copy it into a config.ini file in the root of the fol
 iucn = you_iucn_api
 ```
 
-**How to run notebook**
+**Steps for running notebook on device**
 1. Download zip from GitHub
 2. Move the zipped folder to your documents folder on your device
 3. Unzip the sync-async-api-tutorial folder
