@@ -35,12 +35,12 @@ Once you have the API key, copy it into a config.ini file in the root of the fol
 iucn = you_iucn_api
 ```
 
-**How to run notebook**
+**Steps for running notebook on device**
 1. Download zip from GitHub
 2. Move the zipped folder to your documents folder on your device
 3. Unzip the sync-async-api-tutorial folder
 4. Open Anaconda prompt and change directory to the location of the sync-async-api-tutorial folder: `cd C:/path_to/sync-async-api-tutorial`
-5. Setup the conda environment for the project by running the following line in the Prompt: `conda env create --name envname --file=environments.yaml`
+5. Setup the conda environment for the project by running the following line in the Prompt: `conda env create --name envname --file=environment.yaml`
 6. Activate the conda environment: `conda activate api-env`
 7. Go back to the sync-async-api-tutorial folder and open the api_comparison.ipynb file in Visual Studio Code
 8. Click 'View', 'Command Palette' and type 'Python: Select Interpreter' into the search bar, choose the api-env environment
