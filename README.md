@@ -1,13 +1,15 @@
 # sync-async-api-tutorial
 
 ## About
-The Jupyter Notebook api_comparison.ipynb demonstrates how to make both synchronous and asynchronous API requests using the IUCN API as an example.
+The Jupyter Notebook 'api_comparison.ipynb' demonstrates how to make both synchronous and asynchronous API requests using the IUCN API as an example.
 
 In the tutorial, the following areas are covered:
 - Making API requests with the `requests`, `futures`, `asyncio` and `aiohttp` libraries
 - Timing API requests
 - Plotting the results of API requests
 - Testing API requests
+
+The API used in this notebook is IUCN, please see their [terms of use](https://www.iucnredlist.org/terms/terms-of-use).
 
 ## Background
 In Python, synchronous and asynchronous API requests refer to different ways of sending and receiving data from an external API or web service.
@@ -28,7 +30,7 @@ The importance of synchronous and asynchronous API requests depends on the speci
 ### Prerequisites
 This tools relies on API calls to IUCN. *The IUCN API is a RESTful API that provides access to data from the International Union for Conservation of Nature (IUCN). The API allows users to query for information about species, habitats, and other conservation-related data.* 
 
-You will need setup an account with these organisations and request an API key. You can register here: https://apiv3.iucnredlist.org/.
+You will need setup an account with these organisations and request an API key. You can register [here](https://apiv3.iucnredlist.org/).
 Once you have the API key, copy it into a config.ini file in the root of the folder. Your config.ini file should look like this:
 ```
 [API]
