@@ -1,7 +1,7 @@
 # sync-async-api-tutorial
 
 ## About
-The Jupyter Notebook 'api_comparison.ipynb' demonstrates how to make both synchronous and asynchronous API requests using a test API as an example.
+The Jupyter Notebook 'api_comparison.ipynb' demonstrates how to make both synchronous and asynchronous API requests using [httpbin](https://httpbin.org/) as an example.
 
 In the tutorial, the following areas are covered:
 - Making API requests with the `requests`, `futures`, `asyncio` and `aiohttp` libraries
@@ -24,8 +24,6 @@ The importance of synchronous and asynchronous API requests depends on the speci
 - Visual Studio Code 1.71.2
 
 ## Setup
-
-**Steps for running notebook on device**
 1. Download zip from GitHub
 2. Move the zipped folder to your documents folder on your device
 3. Unzip the sync-async-api-tutorial folder
